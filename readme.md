@@ -1,1 +1,1 @@
-Content is AI generated so it could be total nonsense
+Content is AI generated (Gemini 3.1 Pro) so it could be total nonsense. 
