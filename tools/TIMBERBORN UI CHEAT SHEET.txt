@@ -1,0 +1,35 @@
+# TIMBERBORN UI TOOLKIT GUIDELINES
+
+## 1. Core Architecture
+* Timberborn uses Unity's UI Toolkit (UXML/USS).
+* Use custom elements under the `Timberborn.CoreUI` namespace instead of standard Unity elements when building UI in C#.
+
+## 2. Native UI Elements
+* **Containers & Panels:** Use `NineSliceVisualElement`. Add CSS classes `.sliced-border` or `.sliced-border--nontransparent` for the wooden border aesthetic.
+* **Labels:** Use `LocalizableLabel` for text that supports translations, or `Label` for static text.
+* **Buttons:** Use `NineSliceButton` or `LocalizableButton`.
+* **Text Inputs:** Use `NineSliceTextField` (not `TextField`).
+
+## 3. Typography (USS Classes)
+Timberborn uses the `NotoSansDisplay` font. Always apply these classes rather than hardcoding sizes/colors:
+* `.text--default`: White text, 14px.
+* `.text--grey`: Secondary grey text, 14px.
+* `.text--big`: Larger white text, 17px.
+* `.text--header`: Main title text, 22px.
+* `.text--bold`: Bold font style.
+
+## 4. Layout & Flexbox (USS Classes)
+Use pre-defined flexbox classes instead of manual alignment:
+* `.content-centered`: Centers children vertically and horizontally.
+* `.content-row-centered`: Horizontal flex-row that wraps and centers children.
+* `.grow-centered`: Applies `flex-grow: 1` and centers content.
+
+## 5. Dialog Boxes & Menus
+* **Main Container:** Apply `.box` (adds 45px padding, enforces min-width 350px).
+* **Spacing:** Apply `.box__content-margin` to child elements for a standard 20px bottom margin.
+* **Buttons:** Apply `.menu-button`. For smaller dialogs/rows, append `.menu-button--medium` (adjusts height to 33px).
+
+## 6. Text Inputs
+To make an input field look and behave natively, instantiate a `NineSliceTextField` and add these classes:
+* `.text-field`: Applies the 9-slice background image, padding, and hover states.
+* `.box__input`: Applies 16px font size and a 20px bottom margin.

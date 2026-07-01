@@ -1,0 +1,4 @@
+Game Version: [Version]
+Mod Version: [Version]
+- [Description of change]
+--------------------------------------------------------------------------------

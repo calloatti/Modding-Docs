@@ -1,0 +1,13 @@
+pwsh
+winget install Ollama
+
+ollama run qwen3:14b
+
+ollama list
+
+npm install -g opencode-ai --allow-scripts=opencode-ai
+npm config set allow-scripts=opencode-ai --location=user
+
+ollama launch opencode
+
+ollama launch opencode --config

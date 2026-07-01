@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>INSERT_MOD_ID_HERE</AssemblyName>
+    <RootNamespace>INSERT_MOD_ID_HERE</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="CommonModSettings.props" />
+
+</Project>

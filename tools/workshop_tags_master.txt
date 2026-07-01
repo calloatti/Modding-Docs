@@ -1,0 +1,25 @@
+# Base Types
+Map
+Mod
+# Mod compatibility
+Update 0.6
+Update 0.7
+Update 1.0
+Update 1.1
+# Mod type
+Balance
+Cheats
+Modding tools
+New content
+Other
+Quality of life
+Visuals
+# Mod content
+Buildings
+Decals
+Factions
+Goods
+Miscellaneous
+Outfits
+Plants
+Translations

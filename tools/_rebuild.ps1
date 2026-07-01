@@ -1,0 +1,2 @@
+Get-ChildItem -Recurse -Filter *.csproj | Where-Object { $_.FullName -like "*\Version-*\*" -and $_.FullName -notmatch '\\_[^\\]*\\' } | ForEach-Object { Write-Host "Building: $($_.Name)" -ForegroundColor Cyan ; dotnet build "$($_.FullName)" -c Release -t:Rebuild }
+pause

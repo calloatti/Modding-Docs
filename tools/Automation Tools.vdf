@@ -1,0 +1,18 @@
+"workshopitem"
+{
+    "appid" "1062090"
+    "publishedfileid" "3678157011"
+    "contentfolder" "C:\\Users\\calloatti\\Documents\\Timberborn\\Mods\\Automation Tools"
+    "previewfile" "C:\\Users\\calloatti\\Documents\\Timberborn\\Mods\\Automation Tools\\thumbnail.jpg"
+    "visibility" "0"
+    "title" "Automation Tools"
+    "changenote" "--------------------------------------------------------------------------------
+Game Version: 1.0.0.0
+Mod Version: 1.4.4
+- Fix bug all networks visible when loading game
+"
+    "kvtags"
+    {
+        "Version-1.0" "1.4.4"
+    }
+}
