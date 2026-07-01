@@ -51,3 +51,9 @@ To run a safe simulation that verifies file changes, parses changelogs, and gene
 To calculate your asset signatures, update documentation, and push all modified projects live to the Steam Workshop instantly:
 
     .\workshop_scan.ps1
+
+The MSVS project file has this so rebuilds always have the same hash if nothing changed:
+
+  <PropertyGroup>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
